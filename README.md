@@ -68,8 +68,7 @@
 
 1. [op_url_log 系统-日志表](#op_url_log)
 
-#### op_url_log 系统-日志表<span 'id'="#op_url_log">op_url_log</span>
-### cash_collect_case
+### cash_collect_case 系统-日志表
 |序号|字段|类型|IsNULL|KEY|默认值|说明|
 |:------:|:------:|:------:|:------:|:------:|:------:|:------:|
 |1|id|int(11) unsigned|NO|PRI||主键ID|
