@@ -68,35 +68,22 @@
 
 1. [op_url_log 系统-日志表](#op_url_log)
 
+#### op_url_log 系统-日志表<span 'id'="#op_url_log">op_url_log</span>
 
-序号|字段|类型|IsNULL|KEY|默认值|说明
-
-1|id|int(11) unsigned|NO|PRI||主键ID
-
-2|op_user_id|int(11) unsigned|NO||0|操作用户id
-
-3|op_user_name|varchar(32)|NO|||操作用户名
-
-4|op_user_department|varchar(64)|NO|||操作用户名
-
-5|uri|varchar(100)|NO|||操作请求的path
-
-6|method|varchar(10)|NO|||请求方式
-
-7|ip|int(10)|NO|||ip地址 ip2long后
-
-8|browser|varchar(50)|NO|||浏览器
-
-9|platform|varchar(50)|NO|||操作系统
-
-10|header|text|YES|||请求头数据
-
-11|request|mediumtext|YES|||请求参数
-
-12|response|mediumtext|YES|||返回结果
-
-13|created_at|timestamp|NO||CURRENT_TIMESTAMP|创建时间
-
-14|updated_at|timestamp|NO||CURRENT_TIMESTAMP|更新时间
-
+|序号|字段|类型|IsNULL|KEY|默认值|说明|
+|:------:|:------:|:------:|:------:|:------:|:------:|:------:|
+|1|id|int(11) unsigned|NO|PRI||主键ID|
+|2|op_user_id|int(11) unsigned|NO||0|操作用户id|
+|3|op_user_name|varchar(32)|NO|||操作用户名|
+|4|op_user_department|varchar(64)|NO|||操作用户名|
+|5|uri|varchar(100)|NO|||操作请求的path|
+|6|method|varchar(10)|NO|||请求方式|
+|7|ip|int(10)|NO|||ip地址 ip2long后|
+|8|browser|varchar(50)|NO|||浏览器|
+|9|platform|varchar(50)|NO|||操作系统|
+|10|header|text|YES|||请求头数据|
+|11|request|mediumtext|YES|||请求参数|
+|12|response|mediumtext|YES|||返回结果|
+|13|created_at|timestamp|NO||CURRENT_TIMESTAMP|创建时间|
+|14|updated_at|timestamp|NO||CURRENT_TIMESTAMP|更新时间|
 
